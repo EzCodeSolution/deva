@@ -1,0 +1,11 @@
+Version: 1.1 —-—-  :16-january-2021
+
+1: Issue fixed     : quickview modal.
+
+---------------------------------------
+
+Version: 1.2 —-—-  : 18-02-2021
+
+1: Issue fixed     : Reveal Footer.
+1: Issue fixed     : Minicart Overlay Add.
+

@@ -3,9 +3,9 @@ const http=require('http')
 const app=require('./App')
 const port=process.env.PORT
 const server=http.createServer(app)
-server.listen(port,(err)=>{
+server.listen(3000,(err)=>{
     if(err){
         console.log(err)
     }
-    console.log("port3000")
+    console.log("server runing on port3000")
 })

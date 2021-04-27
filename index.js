@@ -3,7 +3,7 @@ const http=require('http')
 const app=require('./App')
 const port=process.env.PORT
 const server=http.createServer(app)
-server.listen(3000,(err)=>{
+server.listen(port,(err)=>{
     if(err){
         console.log(err)
     }

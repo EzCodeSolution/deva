@@ -1,0 +1,15 @@
+---
+application:
+  name: "deava"
+  project: "Deva"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "LISUMIData"
+  version: "8.0"
+routers:
+- name: "main-deava"
+  routes:
+  - application_name: "deava"
+    paths:
+    - "/*"
